@@ -1,5 +1,3 @@
-/* Begin CSS Reset */
-
 *,
 *::before,
 *::after {
@@ -11,39 +9,47 @@
 }
 
 body {
-  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Inter", sans-serif;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 10px solid white;
+  border-bottom-width: 20px;
+}
+
+.container {
+  width: 80%;
+  max-width: 760px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.white-card {
+  position: relative;
+  width: 80%;
+  margin-left: -150px;
+  background-color: white;
+  padding: 80px 5% 20px;
+  border-radius: 10px;
+  text-align: start;
+  line-height: 1.5;
+}
+
+.pink-card {
+  position: absolute;
+  background-color: #ff0094;
+  color: black;
+  border-radius: 3px;
+  width: 80%;
+  padding: 20px 5px;
+  left: 50%;
+  top: -20px;
   text-align: center;
-  background-color: black;
-  color: white;
-  padding: 20px;
+  font-weight: bolder;
+  font-size: 25px;
+  transform: translateX(-50%);
+  white-space: nowrap;
 }
-
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-
-/* End CSS Reset */

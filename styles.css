@@ -48,7 +48,7 @@ h6 {
 
 /* End CSS Reset */
 
-/* profile section */
+/* Profile section */
 .profile-pic {
   width: 120px;
   border-radius: 50%;
@@ -69,7 +69,7 @@ h6 {
   font-weight: 600;
 }
 
-/* assignments section */
+/* Assignments section */
 .assignments-title {
   font-weight: 600;
   font-size: 1.3rem;
@@ -81,8 +81,8 @@ h6 {
   margin: 15px auto;
 }
 
-.assignments-table a {
-  color: black;
+.assignments-table [href] {
+  color: #1c194a;
 }
 
 .assignments-table td {
