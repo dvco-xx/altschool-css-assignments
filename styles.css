@@ -1,25 +1,25 @@
 /* Begin CSS Reset */
 
-/* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* 2. Remove default margin */
 * {
   margin: 0;
 }
 
 body {
-  /* 3. Add accessible line-height */
   line-height: 1.5;
-  /* 4. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #1c194a;
+  color: white;
 }
 
-/* 5. Improve media defaults */
 img,
 picture,
 video,
@@ -29,7 +29,6 @@ svg {
   max-width: 100%;
 }
 
-/* 6. Inherit fonts for form controls */
 input,
 button,
 textarea,
@@ -37,7 +36,6 @@ select {
   font: inherit;
 }
 
-/* 7. Avoid text overflows */
 p,
 h1,
 h2,
@@ -48,59 +46,76 @@ h6 {
   overflow-wrap: break-word;
 }
 
-/* 8. Improve line wrapping */
-p {
-  text-wrap: pretty;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-wrap: balance;
-}
+/* End CSS Reset */
 
-/*
-  9. Create a root stacking context
-*/
-#root,
-#__next {
-  isolation: isolate;
-}
-
-/* End CSS Reset*/
-
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: black;
-  color: white;
-}
-
+/* profile section */
 .profile-pic {
-  width: 100px;
+  width: 120px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+  border: 2px solid #dede23;
+  margin: 20px auto;
 }
 
 .details {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
+  margin-top: 10px;
+  font-size: 1.1rem;
 }
 
-.assignments {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+.info p {
+  margin: 5px 0;
+  font-weight: 600;
 }
 
+/* assignments section */
+.assignments-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+.assignments-table {
+  margin: 15px auto;
+}
+
+.assignments-table a {
+  color: black;
+}
+
+.assignments-table td {
+  padding: 10px 20px;
+  border: 1px solid #b7af84;
+  text-align: center;
+}
+
+.assignments-table a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: #dede23;
+  display: inline-block;
+}
+
+.assignments-table a:hover {
+  background-color: #d6c66a;
+}
+
+/* Footer */
 footer {
-  margin-top: 20px;
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
