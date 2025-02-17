@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  padding: 50px;
+  background: rgb(122, 111, 111);
+  height: 100vh;
+}
+
+.top {
+  max-width: 100%;
+  background: white;
+  padding: 100px 200px;
+  word-wrap: break-word;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.subtitle,
+.description {
+  margin-top: 10px;
+}
+
+p span {
+  font-weight: bold;
+  color: rgb(1, 151, 86);
+}
+
+hr {
+  border: 4px solid rgb(24, 143, 84);
+  height: 1px;
+  width: 100%;
+}
+
+.bottom {
+  max-width: 100%;
+  background: rgb(120, 126, 146);
+  padding: 50px 200px;
+}
