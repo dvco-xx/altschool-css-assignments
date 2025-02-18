@@ -1,0 +1,101 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.top {
+  padding: 64px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 16px;
+  margin-bottom: 16px;
+  word-wrap: break-word;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0;
+}
+
+p span {
+  font-weight: bold;
+  color: rgb(1, 151, 86);
+}
+
+hr {
+  border: 4px solid rgb(111, 112, 111);
+  width: 100%;
+}
+
+.bottom {
+  padding: 64px 0;
+}
