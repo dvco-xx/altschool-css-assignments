@@ -62,7 +62,6 @@ h6 {
 .container {
   max-width: 600px;
   margin: 0 auto;
-  padding: 50px 20px;
 }
 
 .top {
@@ -73,7 +72,7 @@ h6 {
 h1 {
   font-size: 32px;
   font-weight: 1000;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 
 .paragraph {
@@ -97,5 +96,25 @@ hr {
 }
 
 .bottom {
-  padding: 64px 0;
+  padding: 64px 0px;
+  background-color: #535353;
+}
+
+.banner {
+  position: relative;
+  top: -26px;
+  left: -40px;
+  padding: 16px 32px;
+  width: fit-content;
+  background-color: #ffbf04;
+  box-shadow: 0 6px 0 #cc9300;
+}
+
+.card {
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px;
+  position: relative;
+  border-bottom: 1px solid #d4d3d3;
 }
