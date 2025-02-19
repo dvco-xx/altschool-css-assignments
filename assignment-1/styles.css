@@ -14,7 +14,11 @@ body {
   /* 3. Add accessible line-height */
   line-height: 1.5;
   background-color: rgb(4, 4, 20);
-  /* 4. Improve text rendering */
+  border: 6px solid white;
+  min-height: 100vh;
+  border: 10px solid white;
+  border-bottom-width: 20px;
+  font-family: "Inter";
   -webkit-font-smoothing: antialiased;
 }
 
@@ -77,10 +81,13 @@ h6 {
 
 .white-card {
   position: relative;
-  width: 80%;
+  width: 60%;
   margin-left: -150px;
   background-color: white;
-  padding: 80px 5% 20px;
+  padding-top: 80px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
   border-radius: 10px;
   text-align: start;
   line-height: 1.5;
