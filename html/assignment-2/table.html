@@ -3,16 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="AltSchool HTML Assignment" />
+    <meta name="description" content="AltSchool HTML Assignment 1 (Table)" />
     <meta name="author" content="Osuchukwu David" />
-    <link rel="icon" href="assets/dico.ico" type="image/x-icon" />
-    <title>HTML Assignment 2 - Table</title>
+    <link rel="icon" href="/assets/img/dico.ico" type="image/x-icon" />
+    <title>HTML Assignment 1 - Table</title>
   </head>
   <body>
     <table border="1">
       <caption>
-        AltSchool Courses Table
+        <h3>AltSchool Courses</h3>
       </caption>
+      <thead>
+        <tr>
+          <th scope="col">Schools</th>
+          <th scope="col">Courses</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">School of Engineering</th>
+          <td>
+            <ul>
+              <li>Frontend Engineering</li>
+              <br />
+              <li>Backend Engineering</li>
+              <br />
+              <li>Cloud Engineering</li>
+              <br />
+              <li>Cybersecurity</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">School of Product</th>
+          <td>
+            <ul>
+              <li>Product Design</li>
+              <br />
+              <li>Product Marketing</li>
+              <br />
+              <li>Product Management</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">School of Data</th>
+          <td>
+            <ul>
+              <li>Data Analysis</li>
+              <br />
+              <li>Data Science</li>
+              <br />
+              <li>Data Engineering</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
