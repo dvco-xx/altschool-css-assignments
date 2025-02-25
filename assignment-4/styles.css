@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Sofia Pro Regular";
+  font-family: "Sofia Pro Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Sofia Pro Regular"),
-    url("/assets/sofia-pro-webfont/Sofia\ Pro\ Regular\ Az.woff") format("woff");
+  src: local("Sofia Pro Bold"),
+    url("/assets/sofia-pro-webfont/Sofia\ Pro\ Bold\ Az.woff") format("woff");
 }
 
 * {
@@ -41,17 +41,16 @@ body {
 }
 
 .left-section h2 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 24px;
   color: #000b0a;
-  font-family: "Sofia Pro Regular", Arial, sans-serif;
+  font-family: "Sofia Pro Bold", Arial, sans-serif;
   margin-bottom: 20px;
 }
 
 .left-section p {
   font-size: 14px;
   line-height: 1.5;
-  color: #7a7a7a;
+  color: #737373;
 }
 
 .right-section {
