@@ -100,11 +100,21 @@ h6 {
   border-radius: 3px;
   width: 80%;
   padding: 20px 5px;
-  left: 50%;
+  left: 10%;
   top: -20px;
   text-align: center;
   font-weight: bolder;
   font-size: 25px;
-  transform: translateX(-50%);
-  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .white-card {
+    width: 100%;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 980px) {
+  .white-card {
+    margin-left: 20px;
+  }
 }
