@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Sofia Pro Regular";
+  font-family: "Sofia Pro Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Sofia Pro Regular"),
-    url("/assets/sofia-pro-webfont/Sofia\ Pro\ Regular\ Az.woff") format("woff");
+  src: local("Sofia Pro Bold"),
+    url("/assets/sofia-pro-webfont/Sofia\ Pro\ Bold\ Az.woff") format("woff");
 }
 
 * {
@@ -36,22 +36,24 @@ body {
 }
 
 .logo {
+  position: relative;
+  left: -10px;
   width: 100px;
   margin-bottom: 20px;
 }
 
 .left-section h2 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 24px;
   color: #000b0a;
-  font-family: "Sofia Pro Regular", Arial, sans-serif;
+  font-family: "Sofia Pro Bold", Arial, sans-serif;
   margin-bottom: 20px;
 }
 
 .left-section p {
   font-size: 14px;
-  line-height: 1.5;
-  color: #7a7a7a;
+  line-height: 1.8;
+  font-family: "Sofoia Pro Regular", Arial, sans-serif;
+  color: #737373;
 }
 
 .right-section {
@@ -124,4 +126,66 @@ select:focus {
 .terms span {
   color: #25c6a2;
   text-decoration: underline;
+}
+
+::placeholder {
+  color: #737373;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-section {
+    margin-top: 150px;
+  }
+
+  .right-section {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 480px;
+  }
+
+  .left-section h2 {
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .left-section {
+    max-height: 480px;
+    padding: 20px;
+  }
+
+  .right-section {
+    padding: 15px;
+  }
+
+  input,
+  select {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .register-btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .terms {
+    font-size: 10px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
 }
